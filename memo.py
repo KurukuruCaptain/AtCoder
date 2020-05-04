@@ -1,10 +1,12 @@
 #####入力
 a = str(input())
+a, b, c = inp.split()
 a, b, c = list(map(int, input().split()))
 
 #####リスト
 #初期化
 mylist = [0]*10
+#リストの先頭に追加したい時などはdequeを使う
 
 #count回避
 num_list = [0]* (len(a)+1)
