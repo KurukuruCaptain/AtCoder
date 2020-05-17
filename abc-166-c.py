@@ -17,8 +17,5 @@ for i in range(m):
     elif h[b-1] < h[a-1]:
         yoi_warui[b-1] = 1
 
-print(yoi_warui)
-print(dokuritsu)
-
 print(yoi_warui.count(0))
 
