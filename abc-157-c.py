@@ -65,36 +65,4 @@ else:
     print(-1)
     exit()
 
-                    
-"""
-for num in range (kaishi, owari):
-    seigo = 1
-    for i in range(m):
-        if s[i] == 3:
-            if num%10 == c[i]:
-                continue
-            else:
-                seigo = 0
-        if s[i] == 2:
-            if (num//100) == 0 and (num%100)//10 == 0:
-                seigo = 0 
-            elif (num%100)//10 == c[i]:
-                continue
-            else:
-                seigo = 0
-        if s[i] == 1:
-            if c[i] == 0:
-                seigo = 0
-            elif (num//100) == c[i]:
-                continue
-            else:
-                seigo = 0
-
-    if seigo == 1:
-        print(num)
-        exit()
-        
-print(-1)
-"""
-
-
+ 
